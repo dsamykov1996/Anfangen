@@ -45,10 +45,84 @@
 # Task 4
 
 
-letter1 = input("Enter letter1:")
-letter2 = input("Enter letter2:")
+# letter1 = input("Enter letter1:")
+# letter2 = input("Enter letter2:")
 
-if letter1.lower() <= letter2.lower():
-    print("First letter:", letter1, "Second letter:", letter2)
-else:
-    print("First letter:", letter2, "Second letter:", letter1)
+# if letter1.lower() <= letter2.lower():
+#     print("First letter:", letter1, "Second letter:", letter2)
+# else:
+#     print("First letter:", letter2, "Second letter:", letter1)
+
+# Task 5 
+
+
+# temperature = int(input("Text the temperature:"))
+
+# if temperature > 5:
+#     print("Warm")
+
+# else:
+#     print("Cold")
+        
+# Task 6        
+
+# figure = int(input("Text number of sides of figure and you will receive the Name:"))
+
+# if figure == 3:
+#     print("Triangle")
+# elif figure == 4:
+#     print("Square")
+# else:
+#     print("Not Found, try again")   
+
+# # Task 7 
+
+# print ("input number from 0 to 36:")
+# number = int(input())
+# if number == 0:
+#     print ("green")
+# elif  1 <= number <= 10:
+#     if number % 2 == 0:
+#         print("black")
+#     else:
+#         print("red")
+
+# elif 11 <= number <= 18:
+#     if number % 2 == 0:
+#         print("red")
+#     else:
+#         print("black")  
+# elif 19 <= number <= 28:
+#     if number % 2 == 0:
+#         print("black")
+#     else:
+#         print("red")     
+# elif 29 <= number <= 36:    
+#     if number % 2 == 0:
+#         print("red")  
+#     else:
+#         print("black")   
+# elif number > 37:
+#     pass
+# else:
+#     print("number is not exist")
+# # did not get how to do with number more then 36
+
+# # Task 8
+
+# x1 = float(input("Write the distation(x1):"))                    
+# x2 = float(input("Write the distation(x2):"))                    
+# y1 = float(input("Write the distation(y1):"))                    
+# y2 = float(input("Write the distation(y2):"))   
+
+# a = (x1 ** 2 + y1 **2 ) ** 0.5
+# b = (x2 ** 2 + y2 ** 2) ** 0.5
+
+# if a > b:
+#     print("Point A farer from the start")
+# elif a < b:
+#     print("Point B farer from start")
+# else:
+#     print("Points A and B is on the same distance from start")  
+
+# # I hope its right, bacause i dont know formulas and just take this formula to find the distance from internet, sorry
