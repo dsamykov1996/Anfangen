@@ -18,3 +18,4 @@
 # for i in range (len(ex)):
     
 #     int(ex[0]) + (1 if ex[1] == "+" else -1) * int(ex[2]) + (1 if ex[3] == "+" else -1) * int(ex[4])
+1
