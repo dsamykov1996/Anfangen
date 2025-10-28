@@ -56,7 +56,36 @@
 #      print(1 * num_5, "#" * num_5)
 #      num_5 -= 1    
 
-    
+# # 7 Напишіть програму для побудови шаблону як у вихідних даних за введеним значенням n. 
+
+
+# num = 9
+
+# for i in range(1, num + 1):
+#     print(str(i) * i)
+
+# 8
+
+# n = int(input("Count: "))
+
+# for i in range(1, n+1):
+#     print("#" * i)
+
+# # while n > 0:
+# #     print("#" * n)
+# #     n -= 1 # n = n - 1
+
+# 10
+
+d = 10 #km
+t = 200 #km
+
+
+
+
+
+
+
     
 
 
