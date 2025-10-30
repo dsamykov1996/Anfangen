@@ -41,12 +41,13 @@ ex = input("Enter ex:\n") # 5-3+1
 
 #-------------------
 
-# # 4 var
+# # # 4 var
 
 
-ex = ex.replace("-", "+-")
-parts = ex.split("+")
+# ex = ex.replace("-", "+-")
+# parts = ex.split("+")
 
-# map()
-sum_ex = sum(map(int, parts))
-print(sum_ex)
+# # map()
+# sum_ex = sum(map(int, parts))
+# print(sum_ex)
+

@@ -97,12 +97,12 @@
 # n = 30    
 # print(n_letter(string, n)) 
 
-def n_letter(word, n):
-    if len(word) < n:
-        return word
-    return word[:n]
-    print(1)
+# def n_letter(word, n):
+#     if len(word) < n:
+#         return word
+#     return word[:n]
+#     print(1)
     
-string = "Letter"
-n = 3    
-print(n_letter(string, n)) 
+# string = "Letter"
+# n = 3    
+# print(n_letter(string, n)) 
