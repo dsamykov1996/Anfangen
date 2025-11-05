@@ -153,19 +153,19 @@
 
 # 13. Відомі рік і номер місяця народження людини, а також рік і номер місяця сьогоднішнього дня (січень - 1 і т. д.). Визначити вік людини (число повних років). У разі збігу вказаних номерів місяців вважати, що пройшов повний рік.
 
-today_month = 10
-today_year = 2025
+# today_month = 10
+# today_year = 2025
 
-birth_month = int(input("Input your birth month:"))
-birth_year = int(input("Input your birth year:"))
-age = today_year - birth_year
+# birth_month = int(input("Input your birth month:"))
+# birth_year = int(input("Input your birth year:"))
+# age = today_year - birth_year
 
-if today_month > birth_month:
-    age = today_year - birth_year 
-elif today_month == birth_month:
-    age = today_year - birth_year           
-else :
-    age = today_year - birth_year - 1
-    print("Your current age is:", age)
+# if today_month > birth_month:
+#     age = today_year - birth_year 
+# elif today_month == birth_month:
+#     age = today_year - birth_year           
+# else :
+#     age = today_year - birth_year - 1
+#     print("Your current age is:", age)
 
-# я не могу придумать как сделать чтобы возраст показывало если месяц рождения меньше нынешнего месяца
+

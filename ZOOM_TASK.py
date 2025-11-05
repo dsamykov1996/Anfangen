@@ -140,9 +140,98 @@
 
 # 13 
 
-numbers = [3, 44, 6, 8, 9, 12, 7]
+# numbers = [3, 44, 6, 8, 9, 12, 7]
 
-numbers_list = numbers.split(", ")
-if numbers_list =
+# numbers_list = numbers.split(", ")
+# if numbers_list =
 
+
+# 5
+
+# weeks = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+# days = [i for i in range(7)]
+
+# week_dict = {}
+# for day in range(7):
+#     week_dict[weeks[day]] = days[day]
+# print(week_dict)
+
+# --------------
+# # zip(kays, values)
+# week_dict = dict(zip(weeks, days))
+
+# print(week_dict)
+
+# # 6
+
+# text = "Lorem ipsum dolor sit amet" #Здесь мы создаём переменную text и присваиваем ей строку "Lorem ipsum dolor sit amet". То есть теперь text хранит строку, которую мы хотим анализировать.
+# text = list(text) #Функция list() превращает строку в список символов
+
+# letters = {i: text.count(i) for i in text} 
+
+# #Это dictionary comprehension (генератор словаря).
+
+# Она создаёт словарь, где:
+
+# ключ = i (символ из списка text),
+
+# значение = text.count(i) (сколько раз этот символ встречается в списке).
+
+# Цикл for i in text пробегает каждый символ в списке text.
+
+# Пример работы на части списка:
+
+# Если символ 'm' встречается 3 раза, то в словаре будет 'm': 3.
+
+# Для пробела ' ' тоже будет подсчитано количество повторов.
+
+# ⚠️ Важно: .count() пересчитывает каждый символ заново, поэтому этот код не самый оптимальный для длинных строк.
+
+# print(letters)
+
+
+
+# def task7():
+
+#     text = "Project Gutenberg offers over 59,000 free eBooks"
+#     number_count = 0
+#     alpha_count = 0
+
+#     for ch in text:
+#         if ch.isdigit():
+#             number_count += 1
+#         elif ch.isalpha():
+#             alpha_count += 1
+
+#     result = {
+#         "Letters": alpha_count,
+#         "Digits": number_count
+#     }      
+
+        
+#     for key, value in result.items():
+#         print(key, value)
+
+        
+
+# task7()
+
+# numbers1 = [1, 5, 3, 8, 0, 1]
+# numbers2 = [23, 9, 0, 1, 5]
+
+# result = len(set(numbers1 + numbers2))
+# print(result)
+
+numbers1 = {1, 5, 3, 8, 0, 1}
+numbers2 = {23, 9, 0, 1, 5}
+
+#соединение
+print(numbers1.union(numbers2)) #a | b
+print(numbers1 | numbers2)
+
+# A - B = A (without B)
+# {1, 5, 3, 8, 0, 1} - {23, 9, 0, 1, 5} = {8, 3}
+
+print(numbers1.difference(numbers2)) #a - b
+print(numbers1 - numbers2)
 
