@@ -75,10 +75,22 @@
 # #     print("#" * n)
 # #     n -= 1 # n = n - 1
 
-# 10
+# # 10
 
-d = 10 #km
-t = 200 #km
+# d = 10 
+# t = 200 
+
+# total = 0 #start 
+# day = 0 #start
+# current = d #in current day
+
+# while total <= t:
+#     day += 1 #incresing days
+#     total += current #adding per day
+#     current *= 1.1 #10%
+
+# print(f"total will be more {t} km after {day} days.")
+# print(f"total will be {total:.2f} km")    
 
 
 

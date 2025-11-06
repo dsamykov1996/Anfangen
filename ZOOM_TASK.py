@@ -204,34 +204,61 @@
 #             alpha_count += 1
 
 #     result = {
-#         "Letters": alpha_count,
-#         "Digits": number_count
-#     }      
+# #         "Letters": alpha_count,
+# #         "Digits": number_count
+# #     }      
 
         
-#     for key, value in result.items():
-#         print(key, value)
+# #     for key, value in result.items():
+# #         print(key, value)
 
         
 
-# task7()
+# # task7()
 
-# numbers1 = [1, 5, 3, 8, 0, 1]
-# numbers2 = [23, 9, 0, 1, 5]
+# # numbers1 = [1, 5, 3, 8, 0, 1]
+# # numbers2 = [23, 9, 0, 1, 5]
 
-# result = len(set(numbers1 + numbers2))
-# print(result)
+# # result = len(set(numbers1 + numbers2))
+# # print(result)
 
-numbers1 = {1, 5, 3, 8, 0, 1}
-numbers2 = {23, 9, 0, 1, 5}
+# numbers1 = {1, 5, 3, 8, 0, 1}
+# numbers2 = {23, 9, 0, 1, 5}
 
-#соединение
-print(numbers1.union(numbers2)) #a | b
-print(numbers1 | numbers2)
+# #соединение
+# print(numbers1.union(numbers2)) #a | b
+# print(numbers1 | numbers2)
 
-# A - B = A (without B)
-# {1, 5, 3, 8, 0, 1} - {23, 9, 0, 1, 5} = {8, 3}
+# # A - B = A (without B)
+# # {1, 5, 3, 8, 0, 1} - {23, 9, 0, 1, 5} = {8, 3}
 
-print(numbers1.difference(numbers2)) #a - b
-print(numbers1 - numbers2)
+# print(numbers1.difference(numbers2)) #a - b
+# print(numbers1 - numbers2)
 
+
+
+stocks = {
+    "IBM": 205.55,
+    "FB": 10.75,
+    "ACME": 45.23,
+    "AAPL": 612.78,
+    "HPQ": 37.2
+    }  #Создаётся словарь (dict) под названием stocks.
+
+# Ключи — это названия компаний ("IBM", "FB", и т.д.).
+
+# Значения — это их текущая стоимость акций (числа).
+
+# Пример: "IBM": 205.55 значит, что акция компании IBM стоит 205.55.
+
+def get_value(item):
+    return item[1] #Определяется функция get_value, которая принимает один аргумент item.
+
+# item здесь будет кортежем (tuple) вида ("ключ", значение) — например ("FB", 10.75).
+
+# item[1] — это второй элемент кортежа, то есть значение (цена акции).
+
+# 👉 Проще говоря, функция get_value просто возвращает цену из пары (компания, цена).
+
+for key, value in sorted(stocks.items(), key=get_value):
+    print(value, key)
